@@ -56,10 +56,10 @@ APP_INSTALL_FUNCTION=1; APPS_EULA=1; check_app_eula();
 * After installing all the apps, make sure to do a full reboot. If you want DeepSleep Gen2 fix to work, make sure to install it after Plex is installed. If you installed DeepSleep before Plex, just restart the device.
  
 ## What tools are made available via SSH console?
-htop - this will tell you what processes are active
-atop - this will tell you what is writing and reading from the disk
-tcpdump - this can be used to monitor the network traffic going in/out of the device
-which - enabled this so that you can find where the crontab files are sitting around in the system
+* `htop` - this will tell you what processes are active
+* `atop` - this will tell you what is writing and reading from the disk
+* `tcpdump` - this can be used to monitor the network traffic going in/out of the device
+* `which` - enabled this so that you can find where the crontab files are sitting around in the system
  
 ## How do I install transmission as a PWA app on iOS?
  
