@@ -1,0 +1,25 @@
+# Let's do the log rotate, so that /tmp or ram doesn't end up filling up
+0 */4 * * * /usr/sbin/rlog -s /usr/local/modules/files/syslog_rotate.conf
+01 */4 * * * [ -f /etc/init.d/atop ] && /etc/init.d/atop rotate
+# Update system time
+30 0 * * * /usr/sbin/stime&
+# Below tries to communicate with WD periodically so that Raj can help you when you call support
+#0 3 * * * /usr/sbin/daily_log_upload.sh &
+#0 3 * * * /usr/sbin/traceroute_wd.sh &
+#*/30 * * * * /usr/sbin/quota_monitor &
+#30 0 * * * /usr/local/sbin/ssl_cert_job.sh start > /var/log/ssl_cert_cron.out 2>&1
+#0 0 * * * random_chk_central -s &
+#30 0 * * 1 logwdmsg -e &
+#0 3 * * * logwdmsg -o &
+#01 3 * * * /usr/local/sbin/LogDataSize.sh
+#0 3 * * * wd_crontab.sh&
+#0 4 * * * auto_fw -a -c&
+#0 0 * * * auto_clear_recycle_bin.sh &
+#30 3 * * * /usr/sbin/chk_wfs_download&
+#0 0 * * * random_check -s &
+#0 6 * * * auto_fw -c 1 &
+#0 0 * * * expire.sh
+#31 8 * * * /usr/local/sbin/PullWdlogConfig.sh
+#* * * * * sysinfo_update.sh
+#0 3 * * 1 getHddWhiteList.sh
+#0 */4 * * * sync_tm_to_hd.sh &

@@ -1,0 +1,17 @@
+Package:          DeepSleepGen2
+Packager:         sunthar
+Email:            toxictigga@gmail.com
+Homepage:         https://github.com/toxictigga/wdmycloudgen2
+Description:      Crontab modification for deep sleep
+Icon:             logo.png
+AddonShowName:    Deep Sleep Gen 2
+AddonIndexPage:
+AddonUsedPort:    
+InstDepend:
+InstConflict:
+StartDepend:
+StartConflict:
+Version:          1.0.0
+MinFWVer:
+MaxFWVer:
+IndividualFlag:

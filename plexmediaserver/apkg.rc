@@ -1,0 +1,20 @@
+Package:            plexmediaserver
+Section:            Addon
+Version:            1.21.1.3830
+Packager:           Plex Inc
+Email:              support@plex.tv
+Homepage:           https://www.plex.tv
+Description:        Plex organizes all of your personal media so you can easily access and enjoy it.
+AddonShowName:      Plex Media Server
+Icon:               plexmediaserver.png
+AddonIndexPage:     index.php
+AddonUsedPort:
+InstDepend:
+InstConflict:
+StartDepend:
+StartConflict:
+CenterType:
+UserControl:
+MinFWVer:
+MaxFWVer:
+IndividualFlag:      1

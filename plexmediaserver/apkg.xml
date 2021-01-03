@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <apkg>
+    <item>
+      <procudt_id>0</procudt_id>
+      <custom_id>20</custom_id>
+      <model_id>2</model_id>
+      <user_control>0</user_control>
+      <center_type>0</center_type>
+      <individual_flag>1</individual_flag>
+      <name>plexmediaserver</name>
+      <show>Plex Media Server</show>
+      <enable>1</enable>
+      <version>1.21.1.3830</version>
+      <date>20210102</date>
+      <inst_date/>
+      <path/>
+      <ps_name/>
+      <url>index.php</url>
+      <url_port/>
+      <apkg_version>2</apkg_version>
+      <packager>Plex Inc</packager>
+      <email>support@plex.tv</email>
+      <homepage>https://www.plex.tv</homepage>
+      <inst_depend/>
+      <inst_conflict/>
+      <start_depend/>
+      <start_conflict/>
+      <description>Plex organizes all of your personal media so you can easily access and enjoy it.</description>
+      <icon>plexmediaserver.png</icon>
+      <MinFWVer/>
+      <MaxFWVer/>
+    </item>
+  </apkg>
+</config>

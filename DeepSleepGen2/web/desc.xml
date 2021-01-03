@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <en-US>This fix will install htop, tcpdump (for debugging) and fixes cron so that the WD Gen 2 can sleep and not worry about sending logs back to WD</en-US>
+  <es-ES>This fix will install htop, tcpdump (for debugging) and fixes cron so that the WD Gen 2 can sleep and not worry about sending logs back to WD</es-ES>
+</config>
