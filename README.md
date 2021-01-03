@@ -49,7 +49,7 @@ APP_INSTALL_FUNCTION=1; APPS_EULA=1; check_app_eula();
 ### DeepSleep Gen2
 * DeepSleep Gen2 v1.0.0
 * This is my app to make sure un-necessary cron tasks are disabled. 
-* If Plex is installed, it also moves the "Logs" and "Cache" directory to memory instead of HDD. Plex rotates the Logs, so there is less risk of filling up the 100MB of /tmp directory). Total available ram on this device is 512MB. 100MB of this is allocated to the /tmp directory. This should also work with other versions of Plex as the modification made by this app is fairly generic. However, it was only tested with v1.21.1.3830 app
+* If Plex is installed, DeepSleep Gen2 moves the "Logs" and "Cache" directory to memory instead of HDD. Plex rotates the Logs, so there is less risk of filling up the 100MB of /tmp directory). Total available ram on this device is 512MB. 100MB of this is allocated to the /tmp directory. This should also work with other versions of Plex, as the modification made by this app is fairly generic. However, it was only tested with Plex v1.21.1.3830 app.
 * It also installs `htop`, `tcpdump` and `which` tools that can be used to find out what's keeping your device up.
 
 ## Reboot
@@ -68,4 +68,4 @@ APP_INSTALL_FUNCTION=1; APPS_EULA=1; check_app_eula();
 ## Can I see the source and build it myself?
 * Yes, everything is in this GitHub repo. I have shared all my work here, because I highly doubt, I'll have time to maintain this.
  
-Enjoy your renewed WD My Cloud Gen 2 device that's been sitting around doing nothing...!!
+Enjoy your renewed WD My Cloud Gen 2 device that's been sitting around doing nothing...!! 
