@@ -1,6 +1,6 @@
 # Let's do the log rotate, so that /tmp or ram doesn't end up filling up
 0 */4 * * * /usr/sbin/rlog -s /usr/local/modules/files/syslog_rotate.conf
-01 */4 * * * [ -f /etc/init.d/atop ] && /etc/init.d/atop rotate
+#01 */4 * * * [ -f /etc/init.d/atop ] && /etc/init.d/atop rotate
 # Update system time
 30 0 * * * /usr/sbin/stime&
 # Below tries to communicate with WD periodically so that Raj can help you when you call support

@@ -40,3 +40,6 @@ killall upnp_nas_device 2>&1 >/dev/null &
 # restsdk-server. I don't want WD mycloud to index nothing periodically
 # Stop DeepSleep Gen 2 mod to restart indexing service
 /etc/init.d/restsdk-serverd stop 2>&1 >/dev/null &
+
+# Kill atop and related services
+/etc/init.d/atop stop 2>&1 >/dev/null &

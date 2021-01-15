@@ -24,3 +24,6 @@ fi
 
 # Restart indexer
 /etc/init.d/restsdk-serverd start 2>&1 >/dev/null &
+
+# Restart atop
+/etc/init.d/atop start 2>&1 >/dev/null &
